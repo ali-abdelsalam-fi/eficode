@@ -5,7 +5,7 @@ const TransferWebpackPlugin = require('transfer-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const GLOBALS = {
-  'process.env.ENDPOINT': JSON.stringify(process.env.ENDPOINT || 'http://0.0.0.0:9000/api'),
+  'process.env.ENDPOINT': JSON.stringify(process.env.ENDPOINT || 'http://ec2-52-206-211-29.compute-1.amazonaws.com:9000/api'),
 };
 
 module.exports = {
